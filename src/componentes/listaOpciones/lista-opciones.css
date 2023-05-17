@@ -1,0 +1,55 @@
+.lista-opciones{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-bottom: 2.36rem;
+}
+.lista-opciones label{
+    font-size: 1.356rem;
+    font-weight: 600;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lista-opciones select{
+    width: 100%;
+    background-color: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    padding: 35px 20px;
+    border: none;
+    outline-color:#6278F7 ;
+    font-size: 1.323rem;
+    border-radius: 1px;
+   
+}
+
+
+
+.lista-opciones option{
+    width: 100%;
+    background-color: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    padding: 35px 20px;
+    border: none;
+    outline-color:#6278F7 ;
+    font-size: 1.358rem;
+}
+
+@media screen and (max-width: 768px) {
+    .lista-opciones label{
+        font-size: 1.06rem;
+     
+    }
+
+    .campo-texto input{
+        width: 100%;
+        font-size: 1.02rem;
+        padding: 20px 5px;
+    
+    }
+}

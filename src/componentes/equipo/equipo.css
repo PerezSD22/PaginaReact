@@ -1,0 +1,34 @@
+.Equipo-Section{
+    width: 100%;
+    background: #D9F7E9;
+    position: relative;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.35em;
+    font-family: 'Prata', serif;
+    
+}
+
+.Equipo-Section h3{
+    display: inline-block;
+    margin: 0 auto; 
+    font-weight: 400;
+    padding-bottom: 1.05rem;
+    border-bottom: 4px solid;
+    font-family: 'Prata', serif;
+    margin-bottom: 1.3567rem;
+}
+
+.Equipo-Section-Colaboradores{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+
+}

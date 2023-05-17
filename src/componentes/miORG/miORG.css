@@ -1,0 +1,38 @@
+.orgSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Titulo{
+    color: #6278F7;  
+    font-size: 1.995em;
+    font-weight: 600;
+    padding-bottom: 1.8rem;
+    border-bottom: 4px solid #6278F7;
+    font-family: 'Prata', serif;
+}
+.orgSection img{
+    position: absolute;
+    right: 7%;
+    cursor:pointer;
+}
+@media screen and (max-width: 768px) {
+    .orgSection{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .orgSection img{
+        position: relative;
+        right: 7%;
+        cursor:pointer;
+        left: 2%;
+        width: 20%;
+        
+    }
+    .Titulo{
+        font-size: 1.6em;
+    }
+}
